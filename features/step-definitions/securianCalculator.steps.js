@@ -60,7 +60,6 @@ When(/^User submit the form$/, async () => {
 
 Then(/^User should see the result message "(.*)"$/, async (expectedMessage) => {
     try {
-        await browser.pause(5000);
         if (messageElement === 'validData' || messageElement === 'adjustedData') {
             await expect(SecurianCalPage.getResultMessage).toHaveText(
                 expect.stringContaining(expectedMessage))
