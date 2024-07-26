@@ -1,3 +1,7 @@
+/**
+ * Author: Sudhanshu Tripathi
+ * 
+ */
 const { browser } = require('@wdio/globals')
 const { $ } = require('@wdio/globals')
 

@@ -1,6 +1,6 @@
 Feature: Financial calculator from Securian application
 
-  Scenario Outline: Calculate retirement savings
+  Scenario Outline: Calculate retirement savings with valid and invalid data 
     Given User is on the securian retirement calculator page
     When User fill the calculator form with "<data>"
     And User select social security as "<socialSecurity>"
@@ -14,7 +14,7 @@ Feature: Financial calculator from Securian application
       | adjustedData | socialSecurityYes | Congratulations! You are exceeding your retirement goals. |
       | validData    | socialSecurityYes | Congratulations! You are exceeding your retirement goals. |
 
-  Scenario Outline: Verify some negative cases on calculate retirement savings
+  Scenario Outline: Verify some negative cases to calculate retirement savings
     Given User is on the securian retirement calculator page
     When User fill the calculator form with "<negativData>"
     And User submit the form

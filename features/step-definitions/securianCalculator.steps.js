@@ -1,10 +1,16 @@
+/**
+ * Author: Sudhanshu Tripathi
+ * 
+ */
+
+
 const { Given, When, Then } = require('@wdio/cucumber-framework');
 const { expect, $ } = require('@wdio/globals')
 
 const SecurianCalPage = require('../pageobjects/securian.page');
 
 const fs = require('fs')
-let testData = JSON.parse(fs.readFileSync('testDataManagent/retirementCalc.json'))
+let testData = JSON.parse(fs.readFileSync('testDataManagement/retirementCalc.json'))
 
 let messageElement = 'dataType';
 

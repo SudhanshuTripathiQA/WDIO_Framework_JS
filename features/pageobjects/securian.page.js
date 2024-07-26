@@ -1,12 +1,9 @@
+/**
+ * Author: Sudhanshu Tripathi
+ * 
+ */
 const { $ } = require('@wdio/globals')
-// const Page = require('./page');
 const BasePage = require('../base/BasePage');
-// const base = new BasePage();
-// const BasePage = require('/base/BasePage');
-
-// const pages = {
-//   baseClass: BasePage
-// }
 
 /**
  * sub page containing specific selectors and methods for a specific page
