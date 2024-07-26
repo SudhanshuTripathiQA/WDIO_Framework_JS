@@ -6,13 +6,6 @@ const SecurianCalPage = require('../pageobjects/securian.page');
 const fs = require('fs')
 let testData = JSON.parse(fs.readFileSync('testDataManagent/retirementCalc.json'))
 
-// Data utility
-// const Utilities = require('./util/Utilities');
-// const Util = require('../pageobjects/Util');
-// const util = new Util();
-// const data = Utilities.getJsonData('./testDataManagent/retirementCalc.json');
-// =====
-
 let messageElement = 'dataType';
 
 const pages = {
