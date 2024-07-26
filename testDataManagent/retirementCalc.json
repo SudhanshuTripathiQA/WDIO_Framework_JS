@@ -1,0 +1,70 @@
+{
+    "validData": {
+        "currentAge": 35,
+        "retirementAge": 65,
+        "currentIncome": 100000,
+        "spouseIncome": 75000,
+        "currentRetirementSavings": 500000,
+        "annualRetirementSavings": 10,
+        "savingsIncreaseRate": 2
+    },
+    
+    "invalidData": {
+        "currentAge": "abc",
+        "retirementAge": "xyz",
+        "currentIncome": "",
+        "spouseIncome": "",
+        "currentRetirementSavings": "",
+        "annualRetirementSavings": "",
+        "savingsIncreaseRate": ""
+    },
+
+    "socialSecurityYes": true,
+    "socialSecurityNo": false,
+
+    "adjustedData": {
+        "currentAge": 35,
+        "retirementAge": 60,
+        "currentIncome": 100000,
+        "spouseIncome": 75000,
+        "currentRetirementSavings": 500000,
+        "annualRetirementSavings": 10,
+        "savingsIncreaseRate": 2,
+        "otherIncome" : 5000,
+        "retirementDuration" : 20,
+        "retirementAnnualIncome" : 55,
+        "preRetirementRoi" : 8,
+        "postRetirementRoi" : 5
+    },
+
+    "allZero": {
+        "currentAge": 0,
+        "retirementAge": 0,
+        "currentIncome": 0,
+        "spouseIncome": 0,
+        "currentRetirementSavings": 0,
+        "annualRetirementSavings": 0,
+        "savingsIncreaseRate": 0
+    },
+
+    "currentAgeGreaterThanRetirement": {
+        "currentAge": 45,
+        "retirementAge": 35,
+        "currentIncome": 100000,
+        "spouseIncome": 75000,
+        "currentRetirementSavings": 500000,
+        "annualRetirementSavings": 10,
+        "savingsIncreaseRate": 2
+    },
+    
+    "currentAgeGreaterThan120": {
+        "currentAge": 140,
+        "retirementAge": 65,
+        "currentIncome": 100000,
+        "spouseIncome": 75000,
+        "currentRetirementSavings": 500000,
+        "annualRetirementSavings": 10,
+        "savingsIncreaseRate": 2
+    }
+
+}
